@@ -1,0 +1,6 @@
+module Pods_ZoomExampleRN_ZoomExampleRNTests {
+  umbrella header "Pods-ZoomExampleRN-ZoomExampleRNTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

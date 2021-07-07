@@ -1,0 +1,140 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zoomexamplern"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.75.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.75.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+14
+15    <uses-feature android:glEsVersion="0x00020000" />
+15-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:9:5-54
+15-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:9:19-51
+16    <uses-feature
+16-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:10:5-12:36
+17        android:name="android.hardware.camera"
+17-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:11:9-47
+18        android:required="false" />
+18-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:12:9-33
+19    <uses-feature
+19-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:13:5-15:36
+20        android:name="android.hardware.camera.autofocus"
+20-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:14:9-57
+21        android:required="false" />
+21-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:15:9-33
+22    <uses-feature
+22-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:16:5-18:36
+23        android:name="android.hardware.telephony"
+23-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:17:9-50
+24        android:required="false" />
+24-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:18:9-33
+25    <uses-feature
+25-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:19:5-21:36
+26        android:name="android.hardware.bluetooth"
+26-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:20:9-50
+27        android:required="false" />
+27-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:21:9-33
+28    <uses-feature
+28-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:22:5-24:36
+29        android:name="android.hardware.microphone"
+29-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:23:9-51
+30        android:required="false" />
+30-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:24:9-33
+31
+32    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+32-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:26:5-81
+32-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:26:22-78
+33    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+33-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:28:5-75
+33-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:28:22-72
+34    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+34-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:29:5-79
+34-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:29:22-76
+35    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+35-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:31:5-80
+35-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:31:22-77
+36    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+36-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:32:5-71
+36-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:32:22-68
+37    <uses-permission android:name="android.permission.CAMERA" />
+37-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:33:5-65
+37-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:33:22-62
+38    <uses-permission android:name="android.permission.BLUETOOTH" />
+38-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:34:5-68
+38-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:34:22-65
+39    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+39-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:35:5-74
+39-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:35:22-71
+40    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+40-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:36:5-75
+40-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:36:22-72
+41    <uses-permission android:name="android.permission.WAKE_LOCK" />
+41-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:37:5-68
+41-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:37:22-65
+42    <uses-permission android:name="android.permission.CALL_PHONE" />
+42-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:38:5-69
+42-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:38:22-66
+43    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+43-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:40:5-77
+43-->[:mobilertc] /Users/admin/zoom-render/ZoomExampleRN/android/mobilertc/build/.transforms/3c59e5fd65348741cf9657168eb2966d/jetified-mobilertc/AndroidManifest.xml:40:22-74
+44
+45    <application
+45-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:6:5-24:19
+46        android:name="com.zoomexamplern.MainApplication"
+46-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:7:7-38
+47        android:allowBackup="false"
+47-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:11:7-34
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:18-86
+49        android:debuggable="true"
+50        android:icon="@mipmap/ic_launcher"
+50-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:9:7-41
+51        android:label="@string/app_name"
+51-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:8:7-39
+52        android:roundIcon="@mipmap/ic_launcher_round"
+52-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:10:7-52
+53        android:testOnly="true"
+54        android:theme="@style/AppTheme"
+54-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:12:7-38
+55        android:usesCleartextTraffic="true" >
+55-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/debug/AndroidManifest.xml:8:9-44
+56        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+56-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/debug/AndroidManifest.xml:11:9-86
+56-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/debug/AndroidManifest.xml:11:19-83
+57        <activity
+57-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:13:7-23:18
+58            android:name="com.zoomexamplern.MainActivity"
+58-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:14:9-37
+59            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+59-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:16:9-86
+60            android:label="@string/app_name"
+60-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:15:9-41
+61            android:launchMode="singleTask"
+61-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:17:9-40
+62            android:windowSoftInputMode="adjustResize" >
+62-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:18:9-51
+63            <intent-filter>
+63-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:19:9-22:25
+64                <action android:name="android.intent.action.MAIN" />
+64-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:20:13-65
+64-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:20:21-62
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:21:13-73
+66-->/Users/admin/zoom-render/ZoomExampleRN/android/app/src/main/AndroidManifest.xml:21:23-70
+67            </intent-filter>
+68        </activity>
+69    </application>
+70
+71</manifest>
